@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/resp.css">
+</head>
+<body>
+    <!--header-->
+     <header class="header">
+        <a href="index.html" class="logo"><img src="images/N.png"></a>
+
+
+        <i class='bx bx-menu' id="menu"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Início</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+     </header>
+
+     <!--section home-->
+
+     <section class="home" id="home">
+        <div class="homecontent">
+            <h3>Olá! me chamo Nathan</h3>
+            <h3>Eu sou <span class="autotype"></span></h3>
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+            <!--Autotype Script-->
+        <script>
+          var typed = new Typed(".autotype",{
+           strings : ["Front-End Dev", "Web Designer", "Designer", "Freelancer"] ,
+           typeSpeed : 80,
+           backSpeed : 80,
+           loop : true
+          })
+       </script>
+
+            <div class="socialmedia">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxs-envelope'></i></a>
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="image">
+            <img src="images/me_428x600.jpeg">
+        </div>
+     </section>
+
+     <!--section meio-->
+     <section class="servicos" id="servicos">
+        <h2 class="tituloserv"> Meus <span>Serviços</span> </h2>
+
+        <div class="service-container">
+
+            <div class="servicebox"><i class='bx bx-code-alt'></i>
+            <h3>Desenvolvimento Web</h3>
+            <p>Trabalho na construção de páginas Web funcionais, utilizando das tecnologias de Desenvolvimento Web como HTML, CSS e JavaScript.</p>
+        </div>
+
+        <div class="servicebox"><i class='bx bxs-paint'></i></i>
+            <h3>Design Gráfico</h3>
+            <p>Também tenho atuação na área de Design, onde a partir das ferramentas do Photoshop e Illustrator consigo criar artes digitais e ilustrações</p>
+        </div>
+        </div>
+     </section>
+
+     <!--projetos-->
+     <section class="projetos" id="projetos">
+       <h2 class="tituloproj">Meus <span>Projetos</span></h2>
+
+       <div class="container-projeto">
+        <div class="portfolio-box">
+            <img src="images/android.png" alt="">
+            <div class="portlayer">
+                <h4>Titulo</h4>
+                <p>descrição</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/jogo da velha.png" alt="">
+            <div class="portlayer">
+                <h4>Titulo</h4>
+                <p>descrição</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/calc.png" alt="">
+            <div class="portlayer">
+                <h4>Titulo</h4>
+                <p>descrição</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/login.png" alt="">
+            <div class="portlayer">
+                <h4>Titulo</h4>
+                <p>descrição</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+        
+       </div>
+     </section>
+
+     <section class="contato" id="contato">
+        <h2>Contato</h2>
+
+        <form action="#">
+            <div class="box">
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+     </section>
+
+     <footer class="footer">
+        <div class="texto">
+            <p>&copy; 2023 por: Nathan Maciel</p> 
+        </div>
+
+        <div class="botaotop">
+           <a href="#home"><i class='bx bx-chevron-up'></i></a>
+        </div>
+     </footer>
+
+     <script src="js/script.js"></script>
+</body>
+</html>

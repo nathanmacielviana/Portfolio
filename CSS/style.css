@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+:root
+{
+    --bg-color: #11203d;
+    --second-bg-color: #323946;
+    --header: #0a152b;
+}
+
+html
+{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: #0a152b;
+}
+
+
+.header.sticky
+{
+    border-bottom: .1rem solid rgba(0, 0, 0, .2);
+}
+
+
+.navbar a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 4rem;
+    transition: .3s ease;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navbar :hover
+{
+    color: cyan;
+    text-shadow: 0 0 15px cyan;
+}
+
+.navbar .active 
+{
+    color: cyan;
+}
+
+body
+{
+    background: var(--bg-color);
+    color: white;
+}
+
+.logo img
+{
+    width: 122px;
+    height: 85px;
+}
+
+.logo img:hover
+{
+    transform: scale(1.02);
+}
+
+
+section
+{
+    min-height: 100vh;
+    padding: 12rem 9% 2rem;
+}
+
+#menu
+{
+    font-size: 3.6rem;
+    color: white;
+    display: none;   
+}
+
+
+
+.home
+{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homecontent h3
+{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Silkscreen', cursive;
+}
+
+
+
+span
+{
+    color: cyan;
+    text-shadow: 0 0 15px cyan;
+    font-family: 'Silkscreen', cursive;
+}
+
+.autotype span
+{
+   color: cyan;
+}
+
+.socialmedia a
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    background: transparent;
+    border: .2rem solid cyan;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    color: cyan;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .3s ease;
+    left: 70%;
+
+}
+
+.socialmedia a:hover
+{
+    background: cyan;
+    color: var(--bg-color);
+    box-shadow:  0 0 1rem cyan;
+}
+
+
+.btn
+{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: cyan;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    color: black;
+    box-shadow: 0 0 1rem cyan;
+    transition: .3s ease;
+    font-family: 'Silkscreen', cursive;
+    
+}
+
+.btn :hover
+{
+    box-shadow: none;
+}
+
+
+
+.image img
+{
+    max-width: 250px;
+    position: relative;
+    left: 8%;
+    transform: translateX(-58%);
+    border-radius: 10%;
+    border: 2px solid cyan;
+    margin: 3rem 1.5rem 3rem 0;
+}
+
+.servicos h2
+{
+    margin-bottom: 5rem;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    font-size: 20pt;
+    margin-block-start: 8rem;
+}
+
+.service-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+.service-container .servicebox
+{
+    flex: 1 1 30rem;
+    background: #0a152b;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+}
+
+.servicebox i
+{
+    font-size: 6rem;
+    color: cyan;
+    text-shadow: 0 0 14px cyan;
+    margin-block-end: 1rem;
+}
+
+.servicebox h3
+{
+    font-size: 2rem;
+    font-family: 'Silkscreen', cursive;
+    margin-block-end: 1.5rem;
+    color: white;
+}
+
+.servicebox p
+{
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: lighter;
+}
+
+.service-container .servicebox:hover
+{
+    border-color: cyan;
+    transform: scale(1.02);
+}
+
+.projetos h2
+{
+    margin-bottom: 5rem;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    font-size: 20pt;
+    margin-block-start: 8rem;
+}
+
+.projetos
+{
+    background: #0a152b;
+}
+
+.container-projeto
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.container-projeto .portfolio-box
+{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+}
+
+.portfolio-box img
+{
+    width: 100%;
+    transition: .5s ease;
+}
+
+.portfolio-box:hover img
+{
+    transform: scale(1.1)
+
+}
+
+.portfolio-box .portlayer
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .1),cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+
+.portfolio-box:hover .portlayer
+{
+    transform: translateY(0);
+}
+
+.portlayer h4
+{
+    font-size: 3rem;
+    font-family: 'Silkscreen', cursive;
+}
+
+.portlayer p
+{
+    font-size: 1.6rem;
+    margin: .3rem 0 1rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.portlayer a
+{
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   width: 5rem;
+   height: 5rem;
+   border-radius: 50%;
+   background: white;
+}
+
+.portlayer a i
+{
+    font-size: 2rem;
+    color: #11203d;
+}
+
+.contato h2
+{
+    margin-bottom: 5rem;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    font-size: 20pt;
+    margin-block-start: 8rem;
+}
+
+.contato form
+{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contato form .box
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.contato form .box input, 
+.contato form textarea
+{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: black;
+    background: white;
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+
+.contato form textarea
+{
+    resize: none;
+}
+
+.contato .btn
+{
+    margin-block-start: 2rem;
+    cursor: pointer;
+}
+
+.contato .btn:hover
+{
+    box-shadow: 0 0 14px cyan;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: #0a152b;
+}
+
+.texto p
+{
+    font-size: 1.6rem;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.botaotop a
+{
+    display: inline-flex;
+    justify-content: center;
+     align-items: center;
+    padding: .8rem;
+    background: cyan;
+    border-radius: .8rem;
+    transition: .3s ease;
+}
+
+.botaotop a:hover
+{
+    box-shadow: 0 0 14px cyan;
+}
+
+.botaotop a i
+{
+    font-size: 2.4rem;
+    color: #323946;
+}
