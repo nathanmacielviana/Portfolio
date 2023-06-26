@@ -85,6 +85,17 @@ body
     transform: scale(1.02);
 }
 
+#openmenu, #closemenu
+{
+    border: none;
+    background: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px 5px 0px 5px;
+    cursor: pointer;
+    display: none;
+    color: white;
+}
 
 section
 {
