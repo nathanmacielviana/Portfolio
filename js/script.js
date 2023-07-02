@@ -1,20 +1,19 @@
-let menuIcon = document.querySelector('#openmenu');
-let navbar = document.querySelector('.navbar');
+openmenu.addEventListener('click', () => {
+	menu.style.display = "flex"
+	menu.style.right = (menu.offsetWidth * -1) + 'px'
 
-menuIcon.onclick = () => {
-	menuIcon.classList.toggle('#closemenu');
-}
+	setTimeout(()=> {
+		menu.style.opacity = '1'
+		menu.style.right = "0"
+		openmenu.style.display = 'none'
+	}, 10);
+})
 
-/*remover botão*/
-menuIcon = document.remove('#openmenu');
-navbar = document.remove('.navbar');
-
-/*scroll reveal*/
-ScrollReveal({
-	 reset: true,
-	 distance:'80px',
-	 duration: 2000,
-	 delay: 200 
-	});
-
-ScrollReveal().reveal('.homecontent, .servicos, .projetos, contato', { origin: 'top' });
+closemenu.addEventListener('click', () => {
+	menu.style.opacity = '0'
+	menu.style.right = (menu.offsetWidth * -1) + 'px'
+	setTimeout(()=> {
+		menu.removeAttribute('style')
+		openmenu.removeAttribute('style')
+	}, 200);
+})

@@ -46,6 +46,18 @@ html
     border-bottom: .1rem solid rgba(0, 0, 0, .2);
 }
 
+#openmenu, #closemenu
+{
+    border: none;
+    background: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px 5px 0px 5px;
+    cursor: pointer;
+    display: none;
+    color: white;
+}
+
 
 .navbar a
 {
@@ -85,17 +97,6 @@ body
     transform: scale(1.02);
 }
 
-#openmenu, #closemenu
-{
-    border: none;
-    background: none;
-    font-size: 30px;
-    font-weight: bold;
-    padding: 0px 5px 0px 5px;
-    cursor: pointer;
-    display: none;
-    color: white;
-}
 
 section
 {
@@ -196,8 +197,7 @@ span
     position: relative;
     left: 8%;
     transform: translateX(-58%);
-    border-radius: 10%;
-    border: 2px solid cyan;
+    border-radius: 5%;
     margin: 3rem 1.5rem 3rem 0;
 }
 
