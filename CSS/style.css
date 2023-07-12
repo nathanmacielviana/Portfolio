@@ -26,8 +26,33 @@ html
     overflow-x: hidden;
 }
 
-.header
+
+a {
+    
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    color: cyan;
+    text-shadow: 0 0 15px cyan;
+  }
+  
+  .logo img
 {
+    width: 122px;
+    height: 85px;
+}
+
+.logo img:hover
+{
+    transform: scale(1.02);
+}
+  
+  nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -38,47 +63,32 @@ html
     align-items: center;
     z-index: 100;
     background: #0a152b;
-}
-
-
-.header.sticky
-{
-    border-bottom: .1rem solid rgba(0, 0, 0, .2);
-}
-
-#openmenu, #closemenu
-{
-    border: none;
-    background: none;
-    font-size: 30px;
-    font-weight: bold;
-    padding: 0px 5px 0px 5px;
-    cursor: pointer;
+  }
+  
+  
+  .navlist {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navlist li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  
+  .mobilemenu {
     display: none;
-    color: white;
-}
+    cursor: pointer;
+  }
+  
+  .mobilemenu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+  }
 
-
-.navbar a
-{
-    color: white;
-    text-decoration: none;
-    font-size: 1.5rem;
-    margin-left: 4rem;
-    transition: .3s ease;
-    font-family: 'Roboto Mono', monospace;
-}
-
-.navbar :hover
-{
-    color: cyan;
-    text-shadow: 0 0 15px cyan;
-}
-
-.navbar .active 
-{
-    color: cyan;
-}
 
 body
 {
@@ -86,16 +96,7 @@ body
     color: white;
 }
 
-.logo img
-{
-    width: 122px;
-    height: 85px;
-}
 
-.logo img:hover
-{
-    transform: scale(1.02);
-}
 
 
 section

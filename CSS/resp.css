@@ -10,42 +10,90 @@
 
 @media (max-width: 991px)
 {
-    .header
-    {
-        padding: 2rem 3%;
-    }
+   
+    .navlist {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #11203d;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+      }
+      .navlist li {
+        margin-left: 0;
+        opacity: 0;
+      }
+      .mobilemenu {
+        display: block;
+      }
 
-    section
-    {
-        padding: 10rem 3% 2rem;
-    }
-
-    .servicos
-    {
-        padding-bottom: 7rem;
-
-    }
-
-    .projetos
-    {
-        padding-bottom: 7rem;
-    }
-
-    .projetos h2
-    {
-        margin-bottom: 3rem;
-    }
-
-    .container-projeto
-    {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .footer
-    {
-        padding: 2rem 3%;
-    }
+      .navlist.active {
+        transform: translateX(0);
+      }
+    
+      
+section
+{
+    padding: 10rem 3% 2rem;
 }
+
+.servicos
+{
+    padding-bottom: 7rem;
+
+}
+
+.projetos
+{
+    padding-bottom: 7rem;
+}
+
+.projetos h2
+{
+    margin-bottom: 3rem;
+}
+
+.container-projeto
+{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer
+{
+    padding: 2rem 3%;
+}
+
+}
+    @keyframes navLinkFade {
+        from {
+          opacity: 0;
+          transform: translateX(50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      
+      .mobilemenu.active .line1 {
+        transform: rotate(-45deg) translate(-8px, 8px);
+      }
+      
+      .mobilemenu.active .line2 {
+        opacity: 0;
+      }
+      
+      .mobilemenu.active .line3 {
+        transform: rotate(45deg) translate(-5px, -7px);
+      }
+
+
+
 
 @media (max-width: 768px)
 {
