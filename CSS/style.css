@@ -34,6 +34,7 @@ a {
     color: white;
     font-family: 'Roboto Mono', monospace;
     transition: 0.3s;
+    font-weight: 500;
   }
   
   a:hover {
@@ -185,19 +186,23 @@ span
     
 }
 
-
-
-
-
-.image img
+.btn:hover
 {
-    max-width: 250px;
-    position: relative;
-    left: 8%;
-    transform: translateX(-58%);
-    border-radius: 5%;
-    margin: 3rem 1.5rem 3rem 0;
+    color: black;
 }
+
+
+
+.round {
+    
+	border: 3px solid #03BFCB;
+	border-radius: 50%;
+	padding: 4.5px;
+    margin: 3rem 1.5rem 3rem 0;
+    position: relative;
+    right: 20%;
+}
+
 
 .servicos h2
 {

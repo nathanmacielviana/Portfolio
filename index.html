@@ -21,7 +21,7 @@
             <div class="line3"></div>
           </div>
           <ul class="navlist">
-            <li><a href="#início">Início</a></li>
+            <li><a href="#home">Início</a></li>
             <li><a href="#servicos">Serviços</a></li>
             <li><a href="#projetos">Projetos</a></li>
             <li><a href="#contato">Contato</a></li>
@@ -40,7 +40,7 @@
             <!--Autotype Script-->
         <script>
           var typed = new Typed(".autotype",{
-           strings : ["Front-End Dev", "Web Designer", "Designer"] ,
+           strings : ["Front-End Dev", "Web Designer", "Designer", "Freelancer"] ,
            typeSpeed : 80,
            backSpeed : 80,
            loop : true
@@ -55,9 +55,7 @@
             <a href="cv ATUAL NATHAN.pdf" target="_blank" class="btn">Download CV</a>
         </div>
 
-        <div class="image">
-            <img src="images/me_428x600.jpeg">
-        </div>
+        <img class="round" src="images/me.png" width="230px" />
      </section>
 
      <!--section meio-->
@@ -118,6 +116,15 @@
                 <a href="https://nathanmacielviana.github.io/LoginDark/" target="_blank"><i class='bx bx-link-external'></i></a>
             </div>
         </div>
+
+        <div class="portfolio-box">
+            <img src="images/ProjOng.png" alt="">
+            <div class="portlayer">
+                <h4>Bicho de Rua Ceará</h4>
+                <p>Projeto de Website de ONG animal (projeto faculdade)</p>
+                <a href="https://miskaskel.github.io/ONG_Bicho_de_Rua/" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
         
        </div>
      </section>
@@ -127,13 +134,13 @@
      <section class="contato" id="contato">
         <h2>Contato</h2>
 
-        <form action="#">
+        <form action="https://formsubmit.co/ajax/nathanmacielviana123456@gmail.com" method="post" data-form>
             <div class="box">
                 <input type="text" placeholder="Nome">
                 <input type="email" placeholder="Email">
             </div>
             <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
-            <input type="submit" value="Enviar" class="btn">
+            <input type="submit" value="Enviar" class="btn" data-button>
         </form>
      </section>
 
@@ -150,5 +157,6 @@
      </footer>
 
      <script src="js/script.js"></script>
+     <script src="js/sendemail.js"></script>
 </body>
 </html>

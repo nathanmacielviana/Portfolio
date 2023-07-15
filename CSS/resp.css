@@ -97,21 +97,7 @@ section
 
 @media (max-width: 768px)
 {
-    #openmenu, #closemenu {
-		display: block;
-	}
-
-	#openmenu {
-		margin-left: auto;
-	}
-
-	#closemenu {
-		position: fixed;
-		right: 15px;
-		top: 15px;
-        display: none;
-	}
-
+    
     .navbar
     {
 		position: absolute;
@@ -151,9 +137,9 @@ section
     }
 
    
-    .image img
+    .round
     {
-        margin-block-start: 8rem;
+        margin-block-start: 10rem;
         margin-left: 50%;
     }
 }
@@ -182,7 +168,7 @@ section
         font-size: 50%;
     }
 
-    .image img
+    .round
     {
         width: 90vw;
     }
