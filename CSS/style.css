@@ -24,6 +24,7 @@ html
 {
     font-size: 62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 
@@ -40,6 +41,11 @@ a {
   a:hover {
     color: cyan;
     text-shadow: 0 0 15px cyan;
+  }
+
+  #mark
+  {
+    color: cyan;
   }
   
   .logo img
