@@ -2,8 +2,9 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/Status-Up-sucess"/>
-<img src="https://img.shields.io/badge/Lan%C3%A7amento-Jul%202023-sucess"> <br><br>
-  Ver 2.0
+<img src="https://img.shields.io/badge/Lan%C3%A7amento-Jul%202023-sucess">
+<img src="https://img.shields.io/badge/License-MIT%20-blue">
+<img src="https://img.shields.io/badge/Ver-2.0-blue"/>
 </p>
 
 <h2 align="center">Linguagens Utilizadas 💻</h2>
