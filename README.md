@@ -19,26 +19,20 @@
 <p align="center"> > A parte inicial onde se encontra o cabeçalho, com os links de navegação da página. <br>
 Abaixo do cabeçalho se encontra uma área de breve introdução sobre meu perfil, contendo alguns botões para redes sociais e um botão extra para visualização e download de curriculo.</p>
 
-<img src="https://github.com/nathanmacielviana/Portfolio/blob/main/home.jpg">
-
 <br>
 
 <p align="center"><strong>Serviços</strong> 💻</p>
 <p align="center">> Essa área é destinada a mostrar os meus serviços disponiveis mostrados em forma de cards ilustrativos.</p>
-<img src="https://github.com/nathanmacielviana/Portfolio/blob/main/servs.jpg">
 
 <br>
 
 <p align="center"><strong>Projetos</strong> ⚙️ </p>
 <p align="center">> Aqui se econtram disponíveis todos os meus principais projetos de programação, todos se encontram no ar e podem ser facilmente visualizados, para isso, basta o usuário passar o cursor mouse por cima das imagens que poderá ter acesso ao projeto clicando sobre o ícone mostrado ao abrir a imagem.</p>
-<img src="https://github.com/nathanmacielviana/Portfolio/blob/main/projs.jpg">
 
 <br>
 
 <p align="center"><strong>Área de contato</strong> 📧 </p>
 <p align="center">> Nessa parte encontra-se um formulário simples de envio de mensagem por meio de um formulário simples (encontra-se funcional)</p>
-<img src="https://github.com/nathanmacielviana/Portfolio/blob/main/contato.jpg">
-
 <br>
 <h2 align="center">Interatividades com a página 🔗 </h2>
 <br>
