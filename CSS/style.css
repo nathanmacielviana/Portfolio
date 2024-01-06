@@ -15,9 +15,9 @@
 
 :root
 {
-    --bg-color: #11203d;
+    --bg-color: #1C1C1C;
     --second-bg-color: #323946;
-    --header: #0a152b;
+    --header: #111111;
 }
 
 html
@@ -39,13 +39,12 @@ a {
   }
   
   a:hover {
-    color: cyan;
-    text-shadow: 0 0 15px cyan;
+    color: #E31C25;
   }
 
   #mark
   {
-    color: cyan;
+    color: #E31C25;
   }
   
   .logo img
@@ -69,7 +68,7 @@ a {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background: #0a152b;
+    background: #111111;
   }
   
   
@@ -140,15 +139,11 @@ section
 
 span
 {
-    color: cyan;
-    text-shadow: 0 0 15px cyan;
+    color: #E31C25;
     font-family: 'Silkscreen', cursive;
 }
 
-.autotype span
-{
-   color: cyan;
-}
+
 
 .socialmedia a
 {
@@ -158,10 +153,10 @@ span
     width: 3.5rem;
     height: 3.5rem;
     background: transparent;
-    border: .2rem solid cyan;
+    border: .2rem solid wheat;
     border-radius: 50%;
     font-size: 2.5rem;
-    color: cyan;
+    color: white;
     margin: 3rem 1.5rem 3rem 0;
     transition: .3s ease;
     left: 70%;
@@ -170,9 +165,11 @@ span
 
 .socialmedia a:hover
 {
-    background: cyan;
+    background: #E31C25;
     color: var(--bg-color);
-    box-shadow:  0 0 1rem cyan;
+    border:#E31C25;
+    color: white;
+    transform: scale(1.2);
 }
 
 
@@ -180,13 +177,12 @@ span
 {
     display: inline-block;
     padding: 1rem 2.8rem;
-    background: cyan;
+    background: #E31C25;
     border-radius: 4rem;
     font-size: 1.6rem;
     letter-spacing: .1rem;
     font-weight: 600;
-    color: black;
-    box-shadow: 0 0 1rem cyan;
+    color: white;
     transition: .3s ease;
     font-family: 'Silkscreen', cursive;
     
@@ -194,14 +190,15 @@ span
 
 .btn:hover
 {
-    color: black;
+    color: white;
+    transform: scale(1.1);
 }
 
 
 
 .round {
     
-	border: 3px solid #03BFCB;
+	border: 3px solid white;
 	border-radius: 50%;
 	padding: 4.5px;
     margin: 3rem 1.5rem 3rem 0;
@@ -232,7 +229,7 @@ span
 .service-container .servicebox
 {
     flex: 1 1 30rem;
-    background: #0a152b;
+    background: #111111;
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
@@ -243,8 +240,7 @@ span
 .servicebox i
 {
     font-size: 6rem;
-    color: cyan;
-    text-shadow: 0 0 14px cyan;
+    color: #E31C25;
     margin-block-end: 1rem;
 }
 
@@ -265,7 +261,7 @@ span
 
 .service-container .servicebox:hover
 {
-    border-color: cyan;
+    border-color: white;
     transform: scale(1.02);
 }
 
@@ -280,7 +276,7 @@ span
 
 .projetos
 {
-    background: #0a152b;
+    background: #111111;
 }
 
 .container-projeto
@@ -319,7 +315,7 @@ span
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, .1),cyan);
+    background: linear-gradient(rgba(0, 0, 0, .1),crimson);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -362,7 +358,7 @@ span
 .portlayer a i
 {
     font-size: 2rem;
-    color: #11203d;
+    color: black;
 }
 
 .contato h2
@@ -415,7 +411,7 @@ span
 
 .contato .btn:hover
 {
-    box-shadow: 0 0 14px cyan;
+    transform: scale(1.1);
 }
 
 .footer
@@ -425,7 +421,7 @@ span
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: #0a152b;
+    background: #111111;
 }
 
 .texto p
@@ -442,18 +438,18 @@ span
     justify-content: center;
      align-items: center;
     padding: .8rem;
-    background: cyan;
+    background: #E31C25;
     border-radius: .8rem;
     transition: .3s ease;
 }
 
 .botaotop a:hover
 {
-    box-shadow: 0 0 14px cyan;
+    transform: scale(1.1);
 }
 
 .botaotop a i
 {
     font-size: 2.4rem;
-    color: #323946;
+    color: white;
 }
