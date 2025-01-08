@@ -17,7 +17,7 @@
 <h2 align="center"> Partes do site </h2>
 <p align="center"> <strong>Home</strong> 🏠 </p> <br>
 <p align="center"> > A parte inicial onde se encontra o cabeçalho, com os links de navegação da página. <br>
-Abaixo do cabeçalho se encontra uma área de breve introdução sobre meu perfil, contendo alguns botões para redes sociais e um botão extra para visualização e download de curriculo.</p>
+Abaixo do cabeçalho se encontra uma área de breve introdução sobre meu perfil, contendo alguns botões para redes sociais.</p>
 
 <br>
 
