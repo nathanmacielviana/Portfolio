@@ -140,8 +140,9 @@ section
     .round
     {
         margin-block-start: 10rem;
-        margin-left: 50%;
+        left: 4em;
     }
+
 }
 
 @media (max-width: 617px)
