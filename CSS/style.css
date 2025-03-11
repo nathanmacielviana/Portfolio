@@ -38,25 +38,13 @@ a {
     font-weight: 500;
   }
   
-  a:hover {
-    color: #E31C25;
-  }
+  a:hover{color: #E31C25;}
 
-  #mark
-  {
-    color: #E31C25;
-  }
+#mark{color: #E31C25;}
   
-  .logo img
-{
-    width: 122px;
-    height: 85px;
-}
+.logo img{ width: 122px; height: 85px;}
 
-.logo img:hover
-{
-    transform: scale(1.02);
-}
+.logo img:hover{transform: scale(1.02);}
   
   nav {
     position: fixed;
@@ -72,22 +60,14 @@ a {
   }
   
   
-  .navlist {
-    list-style: none;
-    display: flex;
-  }
+  .navlist{list-style: none; display: flex;}
   
-  .navlist li {
-    letter-spacing: 3px;
-    margin-left: 32px;
-  }
+  .navlist li{letter-spacing: 3px; margin-left: 32px;}
   
-  .mobilemenu {
-    display: none;
-    cursor: pointer;
-  }
+  .mobilemenu{display: none; cursor: pointer;}
   
-  .mobilemenu div {
+  .mobilemenu div
+  {
     width: 32px;
     height: 2px;
     background: #fff;
@@ -95,21 +75,13 @@ a {
     transition: 0.3s;
   }
 
-
 body
 {
     background: var(--bg-color);
     color: white;
 }
 
-
-
-
-section
-{
-    min-height: 100vh;
-    padding: 12rem 9% 2rem;
-}
+section{min-height: 100vh; padding: 1.5rem 9% 1rem;}
 
 #menu
 {
@@ -118,13 +90,13 @@ section
     display: none;   
 }
 
-
-
 .home
 {  
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .homecontent h3
@@ -135,15 +107,7 @@ section
     font-family: 'Silkscreen', cursive;
 }
 
-
-
-span
-{
-    color: #E31C25;
-    font-family: 'Silkscreen', cursive;
-}
-
-
+span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
 
 .socialmedia a
 {
@@ -159,8 +123,6 @@ span
     color: white;
     margin: 3rem 2.5rem 6rem 0;
     transition: .3s ease;
-    
-
 }
 
 .socialmedia a:hover
@@ -171,7 +133,6 @@ span
     color: white;
     transform: scale(1.2);
 }
-
 
 .btn
 {
@@ -188,17 +149,11 @@ span
     
 }
 
-.btn:hover
+.btn:hover{color: white; transform: scale(1.1);}
+
+.round
 {
-    color: white;
-    transform: scale(1.1);
-}
-
-
-
-.round {
-    
-	border: 3px solid white;
+    border: 3px solid white;
 	border-radius: 50%;
 	padding: 4.5px;
     margin: 3rem 1.5rem 3rem 0;
@@ -206,6 +161,7 @@ span
     right: 20%;
 }
 
+.servicos{margin-bottom: 0; padding-bottom: 0;}
 
 .servicos h2
 {
@@ -213,7 +169,6 @@ span
     text-align: center;
     font-family: 'Silkscreen', cursive;
     font-size: 20pt;
-    margin-block-start: 8rem;
 }
 
 .service-container
@@ -223,7 +178,6 @@ span
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
-
 }
 
 .service-container .servicebox
@@ -259,11 +213,7 @@ span
     font-weight: lighter;
 }
 
-.service-container .servicebox:hover
-{
-    border-color: white;
-    transform: scale(1.02);
-}
+.service-container .servicebox:hover{border-color: white; transform: scale(1.02);}
 
 .projetos h2
 {
@@ -274,10 +224,7 @@ span
     margin-block-start: 8rem;
 }
 
-.projetos
-{
-    background: #111111;
-}
+.projetos{ background: #111111;}
 
 .container-projeto
 {
@@ -296,17 +243,9 @@ span
     display: flex;
 }
 
-.portfolio-box img
-{
-    width: 100%;
-    transition: .5s ease;
-}
+.portfolio-box img{width: 100%; transition: .5s ease;}
 
-.portfolio-box:hover img
-{
-    transform: scale(1.1)
-
-}
+.portfolio-box:hover img{transform: scale(1.1)}
 
 .portfolio-box .portlayer
 {
@@ -326,16 +265,9 @@ span
     transition: .5s ease;
 }
 
-.portfolio-box:hover .portlayer
-{
-    transform: translateY(0);
-}
+.portfolio-box:hover .portlayer{transform: translateY(0);}
 
-.portlayer h4
-{
-    font-size: 3rem;
-    font-family: 'Silkscreen', cursive;
-}
+.portlayer h4{ font-size: 3rem; font-family: 'Silkscreen', cursive;}
 
 .portlayer p
 {
@@ -355,11 +287,7 @@ span
    background: white;
 }
 
-.portlayer a i
-{
-    font-size: 2rem;
-    color: black;
-}
+.portlayer a i{font-size: 2rem; color: black;}
 
 .contato h2
 {
@@ -398,21 +326,11 @@ span
     margin: .7rem 0;
 }
 
-.contato form textarea
-{
-    resize: none;
-}
+.contato form textarea{ resize: none;}
 
-.contato .btn
-{
-    margin-block-start: 2rem;
-    cursor: pointer;
-}
+.contato .btn{margin-block-start: 2rem; cursor: pointer;}
 
-.contato .btn:hover
-{
-    transform: scale(1.1);
-}
+.contato .btn:hover{transform: scale(1.1);}
 
 .footer
 {
@@ -443,13 +361,6 @@ span
     transition: .3s ease;
 }
 
-.botaotop a:hover
-{
-    transform: scale(1.1);
-}
+.botaotop a:hover{transform: scale(1.1);}
 
-.botaotop a i
-{
-    font-size: 2.4rem;
-    color: white;
-}
+.botaotop a i{font-size: 2.4rem; color: white;}
