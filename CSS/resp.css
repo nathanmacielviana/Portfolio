@@ -100,7 +100,7 @@ section
     .home
     {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         text-align: center;
     }
@@ -130,6 +130,11 @@ section
         margin: 3rem 0;
     }
 
+    .home
+    {
+        flex-direction: column;
+        margin-block-start: 5rem;
+    }
 
     .homecontent h3
     {
@@ -141,9 +146,7 @@ section
    
     .round
     {
-        position: static;
-        margin: 20px 0;
-        display: block;
+        left: 2em;
     }
 
 }
