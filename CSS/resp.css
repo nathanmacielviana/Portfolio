@@ -130,12 +130,6 @@ section
         margin: 3rem 0;
     }
 
-    .home
-    {
-        flex-direction: column;
-        margin-block-start: 5rem;
-    }
-
     .homecontent h3
     {
         font-size: 2.6rem;
