@@ -140,7 +140,8 @@ section
     .round
     {
         left: 2em;
-        margin-block-start: 1.5rem;
+        margin-top: 20rem;
+        margin-bottom: 6rem;
     }
 
 }
