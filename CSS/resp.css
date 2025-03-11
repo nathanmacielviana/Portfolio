@@ -130,12 +130,6 @@ section
         margin: 3rem 0;
     }
 
-    .home
-    {
-        position: static;
-        margin-bottom: 2.5rem;
-        margin-top: 5rem;
-    }
 
     .homecontent h3
     {
@@ -147,8 +141,9 @@ section
    
     .round
     {
-        margin-block-start: 2rem;
-        left: 2em;
+        position: static;
+        margin: 20px 0;
+        display: block;
     }
 
 }
