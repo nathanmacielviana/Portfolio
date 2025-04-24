@@ -139,17 +139,16 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
     display: inline-block;
     padding: 1rem 2.8rem;
     background: #E31C25;
-    border-radius: 4rem;
+    border-radius: 1.2rem;
     font-size: 1.6rem;
     letter-spacing: .1rem;
     font-weight: 600;
     color: white;
     transition: .3s ease;
-    font-family: 'Silkscreen', cursive;
-    
+    font-family: 'Silkscreen', cursive; 
 }
 
-.btn:hover{color: white; transform: scale(1.1);}
+.btn:hover{color: white; transform: scale(1.1); box-shadow: 5px 5px 0px black;}
 
 .round
 {
@@ -361,6 +360,6 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
     transition: .3s ease;
 }
 
-.botaotop a:hover{transform: scale(1.1);}
+.botaotop a:hover{transform: scale(1.1); box-shadow: 5px 5px 0px black;}
 
 .botaotop a i{font-size: 2.4rem; color: white;}
