@@ -39,7 +39,7 @@ a {
   }
   
   a:hover{color: #E31C25;}
-
+/*menu*/
 #mark{color: #E31C25;}
   
 .logo img{ width: 122px; height: 85px;}
@@ -90,6 +90,7 @@ section{min-height: 100vh; padding: 1.5rem 9% 1rem;}
     display: none;   
 }
 
+/*home*/
 .home
 {  
     display: flex;
@@ -160,6 +161,124 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
     right: 20%;
 }
 
+/*education*/
+.heading 
+{
+    margin-bottom: 5rem;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    font-size: 20pt;
+}
+
+.education
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 5rem;   
+}
+
+.education .education-row
+{
+    display: flex;
+    flex-wrap: nowrap; 
+    gap: 5rem;
+    width: 100%;
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
+.education-row .education-column
+{
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px; 
+}
+
+.education-column .title
+{
+    margin-bottom: 5rem;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    font-size: 20pt;
+}
+
+.ano
+{
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: lighter;
+}
+
+.education-column .education-box
+{
+    border-left: .2rem solid white;
+}
+
+.education-box .education-content
+{
+    position: relative;
+    padding-left: 2rem;
+}
+
+.education-content .content
+{
+    position: relative;
+    padding: 1.5rem;
+    border: .2rem solid white;
+    border-radius: .6rem;
+    margin-bottom: 2rem;
+}
+
+.education-content h3
+{
+    font-size: 1.3rem;
+    font-family: 'Silkscreen', cursive;
+    margin-block-end: 1.5rem;
+    color: white;
+}
+
+.education-content p
+{
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: lighter;
+}
+
+/*skills*/
+.skills-section
+{
+    width: 100%;
+    background-color: #111111;
+    padding: 2rem 1rem;
+    margin-bottom: 10rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+  
+  .skills-container
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 2rem;
+  }
+  
+  .skills-container img
+  {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .skills-container img:hover{transform: scale(1.1);}
+  
+  /*servicos*/
 .servicos{margin-bottom: 0; padding-bottom: 0;}
 
 .servicos h2
@@ -214,6 +333,7 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
 
 .service-container .servicebox:hover{border-color: white; transform: scale(1.02);}
 
+/*projetos*/
 .projetos h2
 {
     margin-bottom: 5rem;
@@ -288,6 +408,7 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
 
 .portlayer a i{font-size: 2rem; color: black;}
 
+/*contato*/
 .contato h2
 {
     margin-bottom: 5rem;
@@ -331,6 +452,7 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
 
 .contato .btn:hover{transform: scale(1.1);}
 
+/*footer*/
 .footer
 {
     display: flex;
@@ -362,4 +484,4 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
 
 .botaotop a:hover{transform: scale(1.1); box-shadow: 5px 5px 0px black;}
 
-.botaotop a i{font-size: 2.4rem; color: white;}
+.botaotop a i{font-size: 2.4rem; color: white;}  
