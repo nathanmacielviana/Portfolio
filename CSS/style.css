@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 
 *
 {
@@ -31,9 +32,9 @@ html
 a {
     
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: white;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Inconsolata", monospace;
     transition: 0.3s;
     font-weight: 500;
   }
@@ -103,12 +104,12 @@ section{min-height: 100vh; padding: 1.5rem 9% 1rem;}
 .homecontent h3
 {
     color: white;
-    font-size: 2.5rem;
-    font-weight: 600;
-    font-family: 'Silkscreen', cursive;
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: "Inconsolata", monospace;
 }
 
-span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
+span{ color: #E31C25; font-family: "Inconsolata", monospace;;}
 
 .socialmedia a
 {
@@ -146,7 +147,7 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
     font-weight: 600;
     color: white;
     transition: .3s ease;
-    font-family: 'Silkscreen', cursive; 
+    font-family: "Inconsolata", monospace;
 }
 
 .btn:hover{color: white; transform: scale(1.1); box-shadow: 5px 5px 0px black;}
@@ -166,7 +167,7 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
 {
     margin-bottom: 5rem;
     text-align: center;
-    font-family: 'Silkscreen', cursive;
+    font-family: "Inconsolata", monospace;
     font-size: 20pt;
 }
 
@@ -201,14 +202,14 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
 {
     margin-bottom: 5rem;
     text-align: center;
-    font-family: 'Silkscreen', cursive;
+    font-family: "Inconsolata", monospace;
     font-size: 20pt;
 }
 
 .ano
 {
     font-size: 1.5rem;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Inconsolata", monospace;
     font-weight: lighter;
 }
 
@@ -235,7 +236,7 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
 .education-content h3
 {
     font-size: 1.3rem;
-    font-family: 'Silkscreen', cursive;
+    font-family: "Inconsolata", monospace;
     margin-block-end: 1.5rem;
     color: white;
 }
@@ -243,7 +244,7 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
 .education-content p
 {
     font-size: 1.5rem;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Inconsolata", monospace;
     font-weight: lighter;
 }
 
@@ -285,7 +286,7 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
 {
     margin-bottom: 5rem;
     text-align: center;
-    font-family: 'Silkscreen', cursive;
+    font-family: "Inconsolata", monospace;
     font-size: 20pt;
 }
 
@@ -319,7 +320,7 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
 .servicebox h3
 {
     font-size: 2rem;
-    font-family: 'Silkscreen', cursive;
+    font-family: "Inconsolata", monospace;
     margin-block-end: 1.5rem;
     color: white;
 }
@@ -327,7 +328,7 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
 .servicebox p
 {
     font-size: 1.5rem;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Inconsolata", monospace;
     font-weight: lighter;
 }
 
@@ -338,7 +339,7 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
 {
     margin-bottom: 5rem;
     text-align: center;
-    font-family: 'Silkscreen', cursive;
+    font-family: "Inconsolata", monospace;
     font-size: 20pt;
     margin-block-start: 8rem;
 }
@@ -386,13 +387,13 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
 
 .portfolio-box:hover .portlayer{transform: translateY(0);}
 
-.portlayer h4{ font-size: 3rem; font-family: 'Silkscreen', cursive;}
+.portlayer h4{ font-size: 3rem; font-family: "Inconsolata", monospace;}
 
 .portlayer p
 {
     font-size: 1.6rem;
     margin: .3rem 0 1rem;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Inconsolata", monospace;
 }
 
 .portlayer a
@@ -413,7 +414,7 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
 {
     margin-bottom: 5rem;
     text-align: center;
-    font-family: 'Silkscreen', cursive;
+    font-family: "Inconsolata", monospace;
     font-size: 20pt;
     margin-block-start: 8rem;
 }
@@ -467,7 +468,7 @@ span{ color: #E31C25; font-family: 'Silkscreen', cursive;}
 {
     font-size: 1.6rem;
     color: white;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Inconsolata", monospace;
     text-align: center;
 }
 
